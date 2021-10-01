@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration
 import java.lang.RuntimeException
 
 @Configuration
-class SimpleJobConfiguration(
+class SimpleJobConfig(
     val jobBuilderFactory: JobBuilderFactory,
     val stepBuilderFactory: StepBuilderFactory
 ) {
